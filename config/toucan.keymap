@@ -57,7 +57,7 @@
 &none  &kp Q                &kp W            &kp E                &kp R              &kp T                 &kp Y          &kp U               &kp I                 &kp O             &kp P                    &none
 &none  &lhr LEFT_CONTROL A  &lhr LEFT_ALT S  &lhr LEFT_COMMAND D  &lhr LEFT_SHIFT F  &kp G                 &kp H          &rhr RIGHT_SHIFT J  &rhr RIGHT_COMMAND K  &rhr RIGHT_ALT L  &rhr RIGHT_CONTROL SEMI  &none
 &none  &kp Z                &kp X            &kp C                &kp V              &kp B                 &kp N          &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &none
-                                             &mo 3                &kp LEFT_SHIFT     &kp SPACE    &kp RET  &kp BACKSPACE  &mo 4
+                                             &mo 1                &kp TAB            &kp SPACE    &kp RET  &kp BACKSPACE  &mo 2
             >;
         };
 
@@ -84,10 +84,10 @@
         adj {
             display-name = "ADJ";
             bindings = <
-&none  &none        &kp F7  &kp F8    &kp F9  &kp F12               &kp C_VOL_DN       &kp C_MUTE  &kp C_VOL_UP     &none  &none  &none
-&none  &none        &kp F4  &kp F5    &kp F6  &kp F11               &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &none  &none  &none
-&none  &bootloader  &kp F1  &kp F2    &kp F3  &kp F10               &none              &none       &none            &none  &none  &none
-                            &kp LGUI  &mo 3   &kp SPACE    &kp RET  &mo 4              &kp RALT
+&none  &none        &kp F7  &kp F8  &kp F9  &kp F12               &kp C_VOL_DN       &kp C_MUTE  &kp C_VOL_UP     &none  &none  &none
+&none  &none        &kp F4  &kp F5  &kp F6  &kp F11               &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &none  &none  &none
+&none  &bootloader  &kp F1  &kp F2  &kp F3  &kp F10               &none              &none       &none            &none  &none  &none
+                            &none   &none   &kp SPACE    &kp RET  &none              &none
             >;
         };
     };
