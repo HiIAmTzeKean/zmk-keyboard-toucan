@@ -85,7 +85,7 @@ layers:
   - SPACE
   - RET
   - RIGHT SHIFT
-  - RALT
+  - {t: ▽, type: trans}
   SYM:
   - ''
   - '!'
