@@ -148,14 +148,14 @@ layers:
   - F5
   - F6
   - F11
+  - VOLUME DOWN
+  - MUTE
+  - VOLUME UP
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '&bootloader'
   - F1
   - F2
   - F3
