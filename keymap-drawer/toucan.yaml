@@ -167,10 +167,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {type: held}
   - ''
 combos:
 - p: [1, 2]
