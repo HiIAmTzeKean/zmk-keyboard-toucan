@@ -15,12 +15,14 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LEFT_POSITIONAL_HOLD_TAP";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <100>;
+            flavor = "balanced";
+            tapping-term-ms = <250>;
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <80>;
-            require-prior-idle-ms = <200>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <125>;
+            hold-trigger-key-positions = <16 15 14 13>;
+            hold-trigger-on-release;
         };
 
         rhr: right_hand_positional_hold_tap {
@@ -28,11 +30,13 @@
             label = "RIGHT_POSITIONAL_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <100>;
+            tapping-term-ms = <250>;
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <80>;
-            require-prior-idle-ms = <200>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <125>;
+            hold-trigger-key-positions = <19 20 21 22>;
+            hold-trigger-on-release;
         };
     };
 
