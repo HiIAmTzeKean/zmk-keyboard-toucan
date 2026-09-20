@@ -136,9 +136,9 @@ layers:
   - F8
   - F9
   - F12
-  - VOL DN
-  - MUTE
-  - VOL UP
+  - BRI DEC
+  - BRIGHTNESS AUTO
+  - BRIGHTNESS INC
   - ''
   - ''
   - ''
@@ -176,4 +176,4 @@ combos:
 - p: [1, 2]
   k: ESCAPE
 - p: [38, 39]
-  k: {t: LEFT SHIFT, h: sticky}
+  k: '&caps_word'
