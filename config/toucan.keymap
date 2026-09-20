@@ -58,7 +58,7 @@
         };
 
         sk_shift_combo {
-            bindings = <&sk LEFT_SHIFT>;
+            bindings = <&caps_word>;
             key-positions = <38 39>;
         };
     };
@@ -99,9 +99,9 @@
         adj {
             display-name = "ADJ";
             bindings = <
-&none  &none           &kp F7  &kp F8  &kp F9  &kp F12            &kp C_VOL_DN       &kp C_MUTE  &kp C_VOL_UP     &none  &none  &none
-&none  &studio_unlock  &kp F4  &kp F5  &kp F6  &kp F11            &kp C_VOLUME_DOWN  &kp K_MUTE  &kp C_VOLUME_UP  &none  &none  &none
-&none  &bootloader     &kp F1  &kp F2  &kp F3  &kp F10            &none              &none       &none            &none  &none  &none
+&none  &none           &kp F7  &kp F8  &kp F9  &kp F12            &kp C_BRI_DEC      &kp C_BRIGHTNESS_AUTO  &kp C_BRIGHTNESS_INC  &none  &none  &none
+&none  &studio_unlock  &kp F4  &kp F5  &kp F6  &kp F11            &kp C_VOLUME_DOWN  &kp K_MUTE             &kp C_VOLUME_UP       &none  &none  &none
+&none  &bootloader     &kp F1  &kp F2  &kp F3  &kp F10            &none              &none                  &none                 &none  &none  &none
                                &none   &trans  &trans     &trans  &trans             &none
             >;
         };
