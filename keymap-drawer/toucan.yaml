@@ -177,3 +177,5 @@ combos:
   k: ESCAPE
 - p: [38, 39]
   k: '&caps_word'
+- p: [12, 23]
+  k: CAPSLOCK

@@ -307,6 +307,12 @@ path.combo {
 <rect rx="6" ry="6" x="378" y="213" width="28" height="26" class="combo"/>
 <text x="392" y="226" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-2">
+<path d="M392,105 l-345,0" class="combo"/>
+<path d="M392,105 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="92" width="28" height="26" class="combo"/>
+<text x="392" y="105" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 319)" class="layer-NAV">
@@ -485,6 +491,12 @@ path.combo {
 <rect rx="6" ry="6" x="378" y="213" width="28" height="26" class="combo"/>
 <text x="392" y="226" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-2">
+<path d="M392,105 l-345,0" class="combo"/>
+<path d="M392,105 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="92" width="28" height="26" class="combo"/>
+<text x="392" y="105" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 637)" class="layer-SYM">
@@ -656,6 +668,12 @@ path.combo {
 <rect rx="6" ry="6" x="378" y="213" width="28" height="26" class="combo"/>
 <text x="392" y="226" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
+<g class="combo combopos-2">
+<path d="M392,105 l-345,0" class="combo"/>
+<path d="M392,105 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="92" width="28" height="26" class="combo"/>
+<text x="392" y="105" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 956)" class="layer-ADJ">
@@ -826,6 +844,12 @@ path.combo {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="378" y="213" width="28" height="26" class="combo"/>
 <text x="392" y="226" class="combo tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+</g>
+<g class="combo combopos-2">
+<path d="M392,105 l-345,0" class="combo"/>
+<path d="M392,105 l345,0" class="combo"/>
+<rect rx="6" ry="6" x="378" y="92" width="28" height="26" class="combo"/>
+<text x="392" y="105" class="combo tap"><tspan style="font-size: 88%">CAPSLOCK</tspan></text>
 </g>
 </g>
 </g>
