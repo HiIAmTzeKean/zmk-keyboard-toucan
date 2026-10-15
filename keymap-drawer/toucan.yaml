@@ -37,12 +37,12 @@ layers:
   - .
   - /
   - ''
-  - TAB
   - NAV
+  - TAB
   - SPACE
   - RET
-  - SYM
   - BACKSPACE
+  - SYM
   NAV:
   - ''
   - '1'
@@ -80,8 +80,8 @@ layers:
   - PAGE UP
   - ''
   - ''
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,8 +127,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   ADJ:
   - ''
   - ''
@@ -166,12 +166,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
 combos:
 - p: [1, 2]
   k: ESCAPE
